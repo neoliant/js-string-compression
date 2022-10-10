@@ -1,4 +1,4 @@
-var jsscompress = jsscompress || {};
+export var jsscompress = jsscompress || {};
 
 (function(jss){
     jss.exchange = function(a, i, j) {
@@ -332,8 +332,3 @@ var jsscompress = jsscompress || {};
     jss.Hauffman = Hauffman;
 
 })(jsscompress);
-
-var module = module || {};
-if(module) {
-	module.exports = jsscompress;
-}
